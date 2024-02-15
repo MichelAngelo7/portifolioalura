@@ -1,0 +1,24 @@
+@import url("styles/apresentacao.css");
+@import url("styles/cabecalho.css");
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url("styles/rodape.css");
+:root {
+    --azul-claro: #22d4fd;
+    --preto: #000;
+    --branco: #f6f6f6;
+    --preto-hover: #272727;
+    --fonte-titulo: 'Krona One', sans-serif;
+    --fonte-pincipal:'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family: var(--fonte-pincipal) ;
+}
